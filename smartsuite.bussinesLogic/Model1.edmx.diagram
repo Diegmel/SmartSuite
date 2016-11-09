@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7d34532c0ede4b47a85a3d9cb0a73acb" Name="Diagram1">
+        <EntityTypeShape EntityType="DevCall4ContentModel.AccountType" Width="1.5" PointX="3.75" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.AreaCodeToTimeZone" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BlacklistedUsers" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastPlusAdmins" Width="1.5" PointX="5.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMS" Width="1.5" PointX="5.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSAPI" Width="1.5" PointX="18.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSBatch" Width="1.5" PointX="7.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSCancelLog" Width="1.5" PointX="19.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSCoupon" Width="1.5" PointX="20.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSEditLog" Width="1.5" PointX="21.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSFilter" Width="1.5" PointX="14" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSFilterType" Width="1.5" PointX="11.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSMessagetextArchive" Width="1.5" PointX="21.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSMessagetextUserArchive" Width="1.5" PointX="19.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSOffer" Width="1.5" PointX="11.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSQueue" Width="1.5" PointX="11.75" PointY="76.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSSubscriptions" Width="1.5" PointX="21.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSTest" Width="1.5" PointX="2.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSUniversalSendPageExecuteLog" Width="1.5" PointX="4.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastType" Width="1.5" PointX="11.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Campaign" Width="1.5" PointX="3" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CampaignAudio" Width="1.5" PointX="5.25" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CampaignLocation" Width="1.5" PointX="5.25" PointY="49.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CampaignMarket" Width="1.5" PointX="21.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CampaignSchedule" Width="1.5" PointX="23.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CampaignType" Width="1.5" PointX="0.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Carrier" Width="1.5" PointX="16.5" PointY="54.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CCTransaction" Width="1.5" PointX="16.5" PointY="66.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CDR" Width="1.5" PointX="14.25" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CDRLog" Width="1.5" PointX="23.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CDRLogArchive" Width="1.5" PointX="23.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CDRLogType" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CDRStatus" Width="1.5" PointX="23.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CDRType" Width="1.5" PointX="3.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Company" Width="1.5" PointX="0.75" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CompanyAccount" Width="1.5" PointX="6" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CompanyInternalMagement" Width="1.5" PointX="21.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CompanyIVRRate" Width="1.5" PointX="6" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CompanyMarket" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CompanyMessageRate" Width="1.5" PointX="6" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ContactDetailsWithPagingExecuteLog" Width="1.5" PointX="23.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ContentType" Width="1.5" PointX="14.25" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Country" Width="1.5" PointX="14.25" PointY="55.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CRMLink" Width="1.5" PointX="24.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CustomTickerMessage" Width="1.5" PointX="9.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.DA_Category" Width="1.5" PointX="12.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.DA_DirectoryEntry" Width="1.5" PointX="15" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.DA_Transfer" Width="1.5" PointX="25.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.DID" Width="1.5" PointX="8.25" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Gateway" Width="1.5" PointX="12" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.GatewayType" Width="1.5" PointX="12" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Graphic" Width="1.5" PointX="7.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.GraphicBackground" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.GraphicExtraElement" Width="1.5" PointX="25.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.GraphicFormat" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.GraphicTemplate" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.GraphicTemplateParamDefinition" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.GraphicType" Width="1.5" PointX="25.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.IVRInputValueType" Width="1.5" PointX="11.25" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.IVRTree" Width="1.5" PointX="8.25" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.IVRTreeDynamicAudio" Width="1.5" PointX="25.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.IVRTreeInput" Width="1.5" PointX="13.5" PointY="50" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.IVRTreeType" Width="1.5" PointX="6" PointY="53.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.LeadList" Width="1.5" PointX="25.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.LoyaltyStatusType" Width="1.5" PointX="25.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MailBox" Width="1.5" PointX="11.25" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Manufacturer" Width="1.5" PointX="5.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MaxInteractions" Width="1.5" PointX="21.75" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MaxReplies" Width="1.5" PointX="21.75" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageDetails" Width="1.5" PointX="16.5" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageFlow" Width="1.5" PointX="13.5" PointY="39.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageFlowCarrier" Width="1.5" PointX="18.75" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageFlowDID" Width="1.5" PointX="25.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageFlowInput" Width="1.5" PointX="18" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageFlowInputType" Width="1.5" PointX="15.75" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageFlowSchedule" Width="1.5" PointX="15.75" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageFlowTree" Width="1.5" PointX="15.75" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageFlowType" Width="1.5" PointX="11.25" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Messages" Width="1.5" PointX="11.25" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageStatus" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageTransaction" Width="1.5" PointX="19.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageTransactionResponse" Width="1.5" PointX="22" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageType" Width="1.5" PointX="3.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MobileInfo" Width="1.5" PointX="10.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MobileModel" Width="1.5" PointX="8" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MOOptionType" Width="1.5" PointX="19.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.mPTTCode" Width="1.5" PointX="5.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.NPANXXMaster" Width="1.5" PointX="26.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.NumberList" Width="1.5" PointX="27.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.OptInSource" Width="1.5" PointX="27.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.OptInSourceByCampaign" Width="1.5" PointX="27.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.OutboundCallSchedule" Width="1.5" PointX="13.5" PointY="46.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.OutboundCallSubscriptionList" Width="1.5" PointX="13.5" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.OutboundEventScheduler" Width="1.5" PointX="17.25" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.OutboundEventType" Width="1.5" PointX="15" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PaymentGateway" Width="1.5" PointX="14.25" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PaymentMethod" Width="1.5" PointX="16.5" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PD_TransactionLog" Width="1.5" PointX="27.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PDSHour" Width="1.5" PointX="7.5" PointY="65.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Poll" Width="1.5" PointX="27.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PollAnswer" Width="1.5" PointX="27.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PollAnswerAudience" Width="1.5" PointX="27.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PollResponse" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PollSchedule" Width="1.5" PointX="28.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PredictiveDialerBadNumbers" Width="1.5" PointX="29.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PredictiveDialerSchedule" Width="1.5" PointX="5.25" PointY="65.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PromotionalMessage" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PSMSPayoutType" Width="1.5" PointX="1.5" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ReferAFriendOffer" Width="1.5" PointX="18.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ReminderInfo" Width="1.5" PointX="29.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.RepeatTypes" Width="1.5" PointX="17" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ReportAccessByCompanyID" Width="1.5" PointX="29.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ReportingCampaignIDs" Width="1.5" PointX="29.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ReportingServicesLogin" Width="1.5" PointX="29.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Reports" Width="1.5" PointX="29.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ReportTypes" Width="1.5" PointX="17" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SalesPackages" Width="1.5" PointX="25.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ScheduledReports" Width="1.5" PointX="19.25" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ScheduledReportsEmailLog" Width="1.5" PointX="29.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SCKSupportedCarrier" Width="1.5" PointX="18.75" PointY="54.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ServiceID" Width="1.5" PointX="18.75" PointY="56.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ShortCodeInfo" Width="1.5" PointX="9" PointY="40.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ShortCodeKeyword" Width="1.5" PointX="11.25" PointY="40.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ShortCodeMOOptions" Width="1.5" PointX="22" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ShortCodeProvider" Width="1.5" PointX="6.75" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SmartSMSOffer" Width="1.5" PointX="27.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SmartSMSofferHistory" Width="1.5" PointX="29.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SmartSMSTemplate" Width="1.5" PointX="21.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SocialBroadcastQueue" Width="1.5" PointX="31.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SoftwareLicenseType" Width="1.5" PointX="1.5" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.States" Width="1.5" PointX="16.5" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SubscribedExemptPhoneList" Width="1.5" PointX="30.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SubwayUniqueSubscriberCount" Width="1.5" PointX="31.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SupportedCarrier" Width="1.5" PointX="11.25" PointY="45.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.sysdiagrams" Width="1.5" PointX="31.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.sysreplservers" Width="1.5" PointX="31.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Target" Width="1.5" PointX="16.5" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TargetInteraction" Width="1.5" PointX="31.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TargetPayment" Width="1.5" PointX="18.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_CNN_Votes" Width="1.5" PointX="31.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_M_ResortMessages" Width="1.5" PointX="31.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_M_ResortNewUser" Width="1.5" PointX="31.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_M_Upload" Width="1.5" PointX="32.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_QuickVote_Answer" Width="1.5" PointX="12" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_QuickVote_AnswerOption" Width="1.5" PointX="9.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_QuickVote_Question" Width="1.5" PointX="9.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_QuickVote_Vote" Width="1.5" PointX="12" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TickerGraphic" Width="1.5" PointX="0.75" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TickerMessage" Width="1.5" PointX="33.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TimePeriod" Width="1.5" PointX="19.5" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TimePeriods" Width="1.5" PointX="17" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TimeZone" Width="1.5" PointX="33.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TrainingGuide" Width="1.5" PointX="33.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Transaction" Width="1.5" PointX="16.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TransactionLog" Width="1.5" PointX="19" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.User" Width="1.5" PointX="9" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserArmCard" Width="1.5" PointX="33.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserInfo" Width="1.5" PointX="11.25" PointY="58.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserKeyword" Width="1.5" PointX="11.25" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserLoginHistory" Width="1.5" PointX="33.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserPermissionsDisplayGraphic" Width="1.5" PointX="11.25" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserPermissionsReports" Width="1.5" PointX="33.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserProduct" Width="1.5" PointX="11.25" PointY="68.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserReportsHistory" Width="1.5" PointX="23.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserReSubscription" Width="1.5" PointX="33.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserSecurity" Width="1.5" PointX="11.25" PointY="72.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserSubscription" Width="1.5" PointX="25.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserSubscriptionLog" Width="1.5" PointX="27.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserSubscriptionLogOriginal" Width="1.5" PointX="33.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserTrainingGuide" Width="1.5" PointX="33.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserTransaction" Width="1.5" PointX="34.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserType" Width="1.5" PointX="29.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.VoiceMail" Width="1.5" PointX="16.5" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.VotingGraphic" Width="1.5" PointX="0.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.VotingGraphicOption" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.WebServiceIdentifiedIPAddress" Width="1.5" PointX="35.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.WebServiceLog" Width="1.5" PointX="35.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.AreaCodeToState" Width="1.5" PointX="35.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSArchive" Width="1.5" PointX="35.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSMSBatchDelayed" Width="1.5" PointX="35.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadCastSMSDupeDelete" Width="1.5" PointX="35.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.BroadcastSocialSubscriptions" Width="1.5" PointX="35.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CampaignInteraction" Width="1.5" PointX="35.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CampaignOld" Width="1.5" PointX="31.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CampaignSonicMarketsNew" Width="1.5" PointX="33.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CatchAllStatus" Width="1.5" PointX="35.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CDRLogTEST" Width="1.5" PointX="37.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CompanyToCRMLink" Width="1.5" PointX="36.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.CouponCodes" Width="1.5" PointX="37.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.DA_CallQueue" Width="1.5" PointX="37.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.DA_CampaignRelationship" Width="1.5" PointX="37.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.DA_EntryAlias" Width="1.5" PointX="17.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.DecisionTree" Width="1.5" PointX="37.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ExternalImport_List" Width="1.5" PointX="37.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.GraphicTemplateParam" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.JTPoints" Width="1.5" PointX="20.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Menu" Width="1.5" PointX="37.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageDelayed" Width="1.5" PointX="27.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageDelayedOld" Width="1.5" PointX="37.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageFlowInputOld" Width="1.5" PointX="37.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MessageFlowOLD" Width="1.5" PointX="35.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.MIMEtype" Width="1.5" PointX="22.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.NPANXXtoState" Width="1.5" PointX="37.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.PrizeList" Width="1.5" PointX="39.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Report_BroadcastSummaryCompleteGroupView" Width="1.5" PointX="39.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ShortCodeKeywordOLD" Width="1.5" PointX="39.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ShortCodeTransport" Width="1.5" PointX="39.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SonicStoreID" Width="1.5" PointX="39.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SonicSurvey" Width="1.5" PointX="39.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.StamptLink" Width="1.5" PointX="39.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.Stores" Width="1.5" PointX="23.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.SwishMarkIVRCoverageMatrix" Width="1.5" PointX="39.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TargetOLD" Width="1.5" PointX="39.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TargetSource" Width="1.5" PointX="39.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_M_ResortAccounts" Width="1.5" PointX="39.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_M_ResortPrizeList" Width="1.5" PointX="37.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_Obama" Width="1.5" PointX="39.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_Obama_LocalOffice" Width="1.5" PointX="25.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_Obama_VoterLine" Width="1.5" PointX="27.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TEMP_RevMsgNumberScrub" Width="1.5" PointX="41.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.test_tab" Width="1.5" PointX="41.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.TickerMessageStatusType" Width="1.5" PointX="41.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserOld" Width="1.5" PointX="41.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserPermissions" Width="1.5" PointX="11.25" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserStamptLink" Width="1.5" PointX="41.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserSubscriptionLogOLD" Width="1.5" PointX="41.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.UserSubscriptionOLD" Width="1.5" PointX="41.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ZipInfo" Width="1.5" PointX="41.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevCall4ContentModel.ZipToState" Width="1.5" PointX="41.75" PointY="39.75" IsExpanded="true" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_AccountType_PSMSPayoutType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_AccountType_SoftwareLicenseType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CompanyAccount_AccountType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_BroadcastSMSFilter_BroadcastSMSFilterType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_BroadcastSMSFilter_BroadCastSMSQueue" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_Campaign_CampaignType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_Campaign_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CampaignAudio_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CampaignLocation_CampaignLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_DID_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_IVRTree_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MailBox_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MaxInteractions_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MaxReplies_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageFlow_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_PredictiveDialerSchedule_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ReferAFriendOffer_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_SupportedCarrier_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_Target_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_UserPermissions_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_Carrier_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageFlowCarrier_Carrier" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_SCKSupportedCarrier_Carrier" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ServiceID_Carrier" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_SupportedCarrier_Carrier" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CCTransaction_PaymentGateway" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_VoiceMail_CDR" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CompanyIVRRate_CDRType1" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CompanyAccount_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CompanyIVRRate_Company1" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CompanyMessageRate_Company1" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ShortCodeInfo_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CompanyAccount_PSMSPayoutType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CompanyAccount_SoftwareLicenseType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CompanyMessageRate_MessageType1" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_Target_ContentTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_States_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_CustomTickerMessage_Campaign_GraphicID" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_DA_EntryAlias_DA_DirectoryEntry" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_DID_IVRTree" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_OutboundCallSchedule_DID" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_OutboundCallSubscriptionList_DID" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_PaymentGateway_Gateway" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_PaymentGateway_GatewayType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_Graphic_GraphicBackgound" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_Graphic_GraphicTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_GraphicBackgound_GraphicTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_GraphicTemplate_GraphicFormat" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_GraphicTemplateParamDefinition_GraphicFormat" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_GraphicTemplateParam_GraphicTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_IVRTreeInput_IVRInputValueType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_IVRTree_IVRTree" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_IVRTree_IVRTreeType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_IVRTree_Target" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_IVRTreeInput_IVRTree" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_IVRTreeInput_IVRTree1" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MaxInteractions_IVRTree" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MaxReplies_IVRTree" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_OutboundCallSchedule_IVRTree" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_OutboundCallSubscriptionList_IVRTree" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MailBox_Target" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MailBox_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_VoiceMail_MailBox" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MobileModelID_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MaxInteractions_Target" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MaxInteractions_TimePeriod" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MaxReplies_Target" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MaxReplies_TimePeriod" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageDetails_Message" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageDetails_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageFlow_MessageFlowTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageFlow_ShortCodeKeyword" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageFlowCarrier_MessageFlow" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageFlowSchedule_MessageFlow" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageFlowTree_MessageFlow" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ReferAFriendOffer_MessageFlow" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageFlowInput_MessageFlowDestination" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageFlowInput_MessageFlowTree" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageFlowInputType_MessageFlowInput" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageFlowTree_MessageFlowTree1" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_Message_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MessageTransactionResponse_MessageTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_MobileInfo_MobileModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ShortCodeMOOptions_MOOptionType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_OutboundEventScheduler_OutboundEventType" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_OutboundEventScheduler_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_Target_PaymentGateway" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_TargetPayment_PaymentMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_PDSHour_PredictiveDialerSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_PromotionalMessage_Graphic" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ReferAFriendOffer_ShortCodeKeyword" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ScheduledReports_RepeatTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ScheduledReports_ReportTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ScheduledReports_TimePeriods" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ScheduledReports_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ShortCodeInfo_ShortCodeProvider" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_ShortCodeKeyword_ShortCodeInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_Target_ShortCodeKeyword" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_TargetPayment_Target" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_TEMP_QuickVote_Answer_TEMP_QuickVote_AnswerOption" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_TEMP_QuickVote_Answer_TEMP_QuickVote_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_TEMP_QuickVote_Vote_TEMP_QuickVote_AnswerOption" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_TransactionLog_Transaction1" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_UserInfo_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_UserKeyword_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_UserPermissions_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_UserPermissionsDisplayGraphic_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_UserProduct_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_UserSecurity_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_VoiceMail_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.FK_VotingGraphicOption_VotingGraphic" ManuallyRouted="false" />
+        <AssociationConnector Association="DevCall4ContentModel.DA_DirectoryCategory" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

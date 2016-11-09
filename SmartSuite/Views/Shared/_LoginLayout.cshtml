@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link rel="shortcut icon" href="~/Content/images/favicon.ico">
+
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="accountbg"></div>
+    <div class="wrapper-page">
+        @RenderBody()
+    </div>
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>
